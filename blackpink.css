@@ -1,0 +1,66 @@
+* body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: deeppink;
+}
+header {
+    background: rgb(170, 168, 168);
+}
+.productosbp { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 22px;
+}
+.productobp {
+    background-color: pink;
+    margin: 8px;
+    width: 100px;
+    border: 4px solid deeppink;
+    border-radius: 8px;
+    padding: 65px;
+    text-align: center;
+    width: 185px; 
+}
+.productobp img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+.navbp {
+    color: deeppink;
+    background-color: pink;
+    text-align: center;
+    padding: 8px;
+}
+.precio {
+    font-weight: bold;
+    color: black;
+}
+.carrito {
+    background-color: pink;
+    border: 1px solid deeppink;
+    border-radius: 8px;
+    padding: 22px;
+    margin: 22px;
+    max-width: 300px;
+    position: fixed;
+    right: 22px;
+    top: 100px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+#listaCarrito {
+    list-style: none;
+    padding: 0;
+}
+button {
+    background-color: rgb(253, 148, 209);
+    color: black;
+    border: 2px solid deeppink;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: palevioletred;
+}
